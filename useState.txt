@@ -1,0 +1,13 @@
+UseState :- 
+useState is a react hook that lets you add state (data that can change) to functional components.
+Think of state as a variable that react keeps track of and whenever it changes, the ui update automatically.
+
+const [state, setState] = useState(initialValue);
+
+state → The current value
+
+setState → A function to change the value
+
+initialValue → Starting value for the state (like 0, '', false, etc.)
+
+useState state ko turant update nahi karta, wo useState ko update karta apne hisaab se function completion ke baad to fix performance issues 

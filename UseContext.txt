@@ -1,0 +1,10 @@
+useContext allows sharing data between components without passing manually at every level (known as "prop drilling).
+
+✅ Steps:
+Create a context
+
+Provide it (usually high up in the component tree)
+
+Consume it using useContext
+
+Sharing global values (theme, user, etc.)
