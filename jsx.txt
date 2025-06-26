@@ -1,0 +1,14 @@
+rfce is react arrow function 
+React is a free and open-source javaScript library used for building user interface especially for single-page application where you need fast and interactive user experience
+
+🔹 Key Features of React:- 
+1. component-Based:-
+ui is broken into small, reusable components like button, forms, headers, etc
+2.Jsx(javaScript xml):-
+You write HTML-like code inside javaScript
+3. Virtual DOM:-
+React creates a lightweight copy of the real DOM and updates it efficiently, which improves performance.
+4. Unidirectional Data Flow:-
+Data flows from parent to child components, making apps predictable and easier to debug.
+5. Hooks:-
+Functions like useState and useEffect allow you to manage state and side effects in functional components.

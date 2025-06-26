@@ -1,0 +1,18 @@
+A key is a special attribute you must include when rendering a list of elements or components.
+It helps React identify which items changed, were added, or removed, and it helps with performance during rendering.
+
+const users = ['Alice', 'Bob', 'Charlie'];
+
+function UserList() {
+  return (
+    <ul>
+      {users.map((user, index) => (
+        <li key={index}>{user}</li>
+      ))}
+    </ul>
+  );
+}
+❗ Important Notes:
+key should be unique for each item in the list.
+
+Avoid using index as a key if the list changes often — use a unique id if possible.

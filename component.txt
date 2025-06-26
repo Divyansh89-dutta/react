@@ -1,0 +1,23 @@
+a component is a reusable piece of code that return UI elements 
+think of it like a lego block. You can build small blocks and combin them to make a full app.
+
+✅ Two types of Components:
+Functional Component (most common today):
+
+"function Greeting() {
+  return <h1>Hello!</h1>;
+}
+Class Component (older style):"
+
+"class Greeting extends React.Component {
+  render() {
+    return <h1>Hello!</h1>;
+  }
+}"
+
+💡 Why use Components?
+-> Reusability (use the same UI in multiple places)
+
+-> Separation of concerns
+
+-> Easier to test and debug

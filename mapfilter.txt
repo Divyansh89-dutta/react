@@ -1,0 +1,5 @@
+map filter :-
+map filter - dono hi arry pe chalta hai, aur dono kaa kaam hai array par kuchh perform karna and ek naya array return karna
+map filter mein ek hi farak hai, map saare bande lautata hai  matalb ki count kam nahi hoga, filter bando ko kam kar skta hai 
+jab og array ka size kam naa ho waha map use hota hai
+jab og ka size kam karna hoto waha filter use hota hai
