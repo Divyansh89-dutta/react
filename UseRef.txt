@@ -1,0 +1,4 @@
+🔹 What is useRef in React?
+useRef is a react hook that gives you direct accress to a Dom elements or lets you store mutable values that persist across renders without causing re-renders.
+example :- 
+const myRef = useRef(initialValue);

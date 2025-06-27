@@ -1,0 +1,2 @@
+🔹 What is Dynamic Routing?
+Dynamic routing allows you to define routes with Dynamic segments, such as /user/:id, so you can different content based on the URL.

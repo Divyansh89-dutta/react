@@ -1,0 +1,5 @@
+🔹 What is Props Drilling in React? 
+props drilling happens when you pass data from parent components to deeply nested child components though intermediate components that don't actually need that data 
+they just pass it along 
+
+props use hota hai aapke components ko reusable banaane ke liye 

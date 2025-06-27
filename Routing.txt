@@ -1,0 +1,5 @@
+🔹 What is react-router-dom?
+react-router-dom is a routing library for react that allows you to navigate between different pages in your React application without reloading the pages.
+In other words, it enables Single Page Applicaion behavior, where the url changes, nut the pages doesn't reload.
+Installation:-
+npm install react-router-dom
