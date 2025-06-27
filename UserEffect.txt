@@ -1,0 +1,17 @@
+🔹 What is useEffect in React?
+useEffect is a React Hook that lets you perform side effects in the function components.
+
+📌 Side effects include:-
+-> Fetching data from an API 
+-> Subscribing to events
+-> Updating the DOM
+-> Setting timers or intervals
+
+useEffect(() => {
+  // code to run (side effect)
+
+  return () => {
+    // optional cleanup code
+  };
+}, [dependencies]);
+

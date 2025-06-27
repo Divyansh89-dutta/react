@@ -1,0 +1,2 @@
+🔹 What is Context API in React?
+Context API is a built in feature in react that allows you to share data without passing props manually through every level of the components tree.
