@@ -14,3 +14,32 @@ An action is a plain JavaScript object that describes what you want to do.
 A reducer is a function that takes the current state and an action, and returns a new state.
 
 UI Event ➜ dispatch(action) ➜ reducer ➜ store updates state ➜ UI re-renders 
+
+🔹 What is getState in Redux?
+getState is a function that lets you read the current state of the Redux store at any time.
+
+You often use it in:
+
+-> Custom middleware
+
+-> Async thunks (like createAsyncThunk in Redux Toolkit)
+
+-> Complex conditional logic before dispatching an action
+
+example :- 
+import { createAsyncThunk } from '@reduxjs/toolkit';
+
+export const fetchUserIfNotExists = createAsyncThunk(
+  'user/fetchIfNotExists',
+  async (userId, { dispatch, getState }) => {
+    const state = getState();
+
+    // If user already exists in state, skip API call
+    if (state.users.byId[userId]) {
+      return state.users.byId[userId];
+    }
+
+    const response = await fetch(`/api/users/${userId}`);
+    return await response.json();
+  }
+);
