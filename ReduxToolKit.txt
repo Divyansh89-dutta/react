@@ -1,0 +1,4 @@
+🔷 What is Redux Toolkit?
+Redux Toolkit is the offical, recommended way to use Redux in modern React apps.
+It helps you write cleaner, simple and less boilerplate Redux code.
+Think of it as a “power-up” for Redux that makes state management easier and faster.
