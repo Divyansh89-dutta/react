@@ -2,3 +2,15 @@
 Redux Toolkit is the offical, recommended way to use Redux in modern React apps.
 It helps you write cleaner, simple and less boilerplate Redux code.
 Think of it as a “power-up” for Redux that makes state management easier and faster.
+
+1️⃣ Store :- 
+Store in Redux a place where data Store like a central data wareHouse 
+the Store is the single source of truth it holds your app’s entire state.
+
+2️⃣ Action :-
+An action is a plain JavaScript object that describes what you want to do. 
+
+3️⃣ Reducer :-
+A reducer is a function that takes the current state and an action, and returns a new state.
+
+UI Event ➜ dispatch(action) ➜ reducer ➜ store updates state ➜ UI re-renders 
